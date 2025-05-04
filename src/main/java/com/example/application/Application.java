@@ -20,9 +20,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 // we will probably have to add that logo image, but let's set it to what exists for now
 @PWA(
         name = "Vaadin CRM",
-        shortName = "CRM",
-        offlinePath="offline.html",
-        offlineResources = { "./images/offline.png"}
+        shortName = "CRM"
+        //offlinePath="offline.html",
+        //offlineResources = { "./images/offline.png"}
 )
 //@NpmPackage(value = "line-awesome",version = "1.3.0")
 
