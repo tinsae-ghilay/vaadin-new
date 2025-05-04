@@ -23,7 +23,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @PWA(
         name = "Vaadin CRM",
         shortName = "CRM",
-        iconPath = "icons/icon.png",
         offlinePath="offline.html",
         offlineResources = { "./images/offline.png"}
 )
