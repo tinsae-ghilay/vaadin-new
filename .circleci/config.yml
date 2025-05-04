@@ -10,7 +10,7 @@ jobs:
       MAVEN_CLI_OPTS: "--batch-mode"
     steps:
       - checkout
-      - run: mvn $MAVEN_CLI_OPTS -Dvaadin.offline.key=$VAADIN_OFFLINE_KEY -Dvaadin.offlineMode=true clean package -Pproduction -e
+      - run: mvn $MAVEN_CLI_OPTS -Dvaadin.offline.key=$VAADIN_OFFLINE_KEY -Dvaadin.offlineMode=true -Dvaadin.icon.path=src/main/resources/META-INF/resources/icons/icon.png clean package -Pproduction -e
       - store_artifacts:
           path: target
           destination: target
