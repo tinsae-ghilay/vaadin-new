@@ -22,9 +22,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @NpmPackage(value = "line-awesome",version = "1.3.0")
 @PWA(
         name = "Vaadin CRM",
-        shortName = "CRM"
-        //offlinePath="offline.html",
-        //offlineResources = { "./images/offline.png"}
+        shortName = "CRM",
+        iconPath = "icons/icon.png",
+        offlinePath="offline.html",
+        offlineResources = { "./images/offline.png"}
 )
 
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
