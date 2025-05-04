@@ -1,7 +1,6 @@
 package com.example.application.services;
 
 import com.example.application.data.*;
-import com.vaadin.flow.component.notification.Notification;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
