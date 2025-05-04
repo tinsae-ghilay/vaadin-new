@@ -1,6 +1,5 @@
 package com.example.application.security;
 
-import com.nimbusds.jose.proc.SecurityContext;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.server.VaadinServletRequest;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
